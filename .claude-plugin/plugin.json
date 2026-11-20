@@ -9,7 +9,16 @@
     "url": "https://watchtower.galorweb.works"
   },
   "homepage": "https://watchtower.galorweb.works/docs",
+  "privacyPolicyUrl": "https://watchtower.galorweb.works/privacy",
   "repository": "https://github.com/islamismylifebey-web/watchtower-plugin",
   "license": "PolyForm-Strict-1.0.0",
-  "keywords": ["remote access", "computers", "files", "terminal", "monitoring", "alerts", "approvals"]
+  "keywords": [
+    "remote access",
+    "computers",
+    "files",
+    "terminal",
+    "monitoring",
+    "alerts",
+    "approvals"
+  ]
 }

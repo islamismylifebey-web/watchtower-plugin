@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "remote-watchtower": {
+      "type": "http",
+      "url": "https://watchtower.galorweb.works/mcp"
+    }
+  }
+}

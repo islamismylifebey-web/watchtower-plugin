@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="GALOR Remote Watchtower">
+  <title>GALOR Remote Watchtower</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10275a"/>
+      <stop offset="1" stop-color="#050b1d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="256" cy="172" r="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beamR" x1="256" y1="0" x2="512" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7cb7ff" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beamL" x1="256" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7cb7ff" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lamp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfdbfe"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <clipPath id="tile"><rect width="512" height="512" rx="112"/></clipPath>
+    <clipPath id="body"><path d="M214 228H298L326 424H186Z"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#tile)">
+    <rect width="512" height="512" fill="url(#bg)"/>
+    <rect width="512" height="512" fill="url(#glow)"/>
+    <!-- the watch beams -->
+    <path d="M256 161L520 83V259L256 185Z" fill="url(#beamR)"/>
+    <path d="M256 161L-8 83V259L256 185Z" fill="url(#beamL)"/>
+  </g>
+
+  <g transform="translate(256 266) scale(1.12) translate(-256 -266)">
+  <!-- ground -->
+  <rect x="146" y="420" width="220" height="18" rx="9" fill="#eef4ff"/>
+
+  <!-- tower body with two structural bands and a door -->
+  <path d="M214 228H298L326 424H186Z" fill="#eef4ff"/>
+  <g clip-path="url(#body)" fill="#10275a">
+    <rect x="150" y="282" width="212" height="16"/>
+    <rect x="150" y="346" width="212" height="16"/>
+  </g>
+  <path d="M240 424V394a16 16 0 0 1 32 0V424Z" fill="#10275a"/>
+
+  <!-- gallery deck -->
+  <rect x="198" y="214" width="116" height="16" rx="5" fill="#eef4ff"/>
+
+  <!-- lantern room with the watching eye -->
+  <rect x="222" y="150" width="68" height="66" rx="9" fill="url(#lamp)" stroke="#eef4ff" stroke-width="7"/>
+  <circle cx="256" cy="183" r="16" fill="#071230"/>
+  <circle cx="262" cy="177" r="5" fill="#ffffff"/>
+
+  <!-- roof and red beacon -->
+  <path d="M208 154H304L256 104Z" fill="#eef4ff"/>
+  <circle cx="256" cy="94" r="12" fill="#e5383b"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "name": "remote-watchtower",
+  "displayName": "Remote Watchtower",
+  "version": "1.1.0",
+  "description": "Reach your own computers from Claude, from anywhere: find and edit files, run commands and see the screen, with approvals for risky actions and outage alerts.",
+  "author": {
+    "name": "GALOR WebWorks",
+    "email": "m.penningtonbey@galorweb.works",
+    "url": "https://watchtower.galorweb.works"
+  },
+  "homepage": "https://watchtower.galorweb.works/docs",
+  "repository": "https://github.com/islamismylifebey-web/watchtower-plugin",
+  "license": "PolyForm-Strict-1.0.0",
+  "keywords": ["remote access", "computers", "files", "terminal", "monitoring", "alerts", "approvals"]
+}
